@@ -1,0 +1,51 @@
+.smallCaseModal {
+    width: 20%;
+    height: 35%;
+    position: fixed;
+    top: 45vh;
+    left: 50vw;
+    z-index: 10;
+    background-color: aliceblue;
+    border-radius: 3px;
+    border: 1px solid gainsboro;
+    font-size: 0.8rem;
+    font-family:sans-serif;
+    overflow: auto;
+    animation-name: move;
+    animation-duration: 1s;
+    animation-fill-mode: forwards; 
+}
+
+@keyframes move {
+    100% {left: 43vw;}
+}
+
+#modalHeader {
+    text-align: center;
+    padding: 0.8em;
+    padding-bottom: 0.2em;
+}
+
+#modalBody {
+    text-align: center;
+    padding: 2em 0em;
+    font-size: 1.2em;
+}
+
+#modalClose {
+    padding: 0.5em 1em;
+    text-align: right;
+    font-size: 1em;
+}
+
+#myBtn {
+    border: 1px solid blue;
+    background-color: white;
+    color: blue;
+    border-radius: 2px;
+}
+
+#myBtn:hover {
+    color: red;
+    border-color: red;
+}

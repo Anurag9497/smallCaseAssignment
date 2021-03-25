@@ -1,24 +1,32 @@
-import logo from './logo.svg';
+import React,{useState} from 'react';
 import './App.css';
+import Parent from './components/Parent';
+import {HashRouter as Router, Switch, Route} from 'react-router-dom';
 
 function App() {
+  const [modalDisplay, setModalDisplay] = useState({display: "none"});
+  const [showDisplay, setShowDisplay] = useState({display: "block"});
+
+  const handleDisplay = () => {
+    setShowDisplay({display: "none"});
+  };
+
+  document.addEventListener("keydown", event => {
+    if(event.key==="Escape")
+      handleDisplay();
+  })
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router basename="/page" hashType="noslash">
+      <Switch>
+        <Route exact path="/">
+          <Parent modalDisplay={modalDisplay}/>
+        </Route>
+        <Route exact path="/modal1">
+          <Parent modalDisplay={showDisplay} handleDisplay={handleDisplay}/>
+        </Route>
+      </Switch>
+    </Router>
   );
 }
 
