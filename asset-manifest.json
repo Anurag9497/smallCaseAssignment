@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/smallCaseAssignment/static/css/main.798228db.chunk.css",
+    "main.js": "/smallCaseAssignment/static/js/main.d552cdd2.chunk.js",
+    "main.js.map": "/smallCaseAssignment/static/js/main.d552cdd2.chunk.js.map",
+    "runtime-main.js": "/smallCaseAssignment/static/js/runtime-main.aaadb794.js",
+    "runtime-main.js.map": "/smallCaseAssignment/static/js/runtime-main.aaadb794.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/smallCaseAssignment/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.7e1421a5.chunk.js": "/smallCaseAssignment/static/js/2.7e1421a5.chunk.js",
+    "static/js/2.7e1421a5.chunk.js.map": "/smallCaseAssignment/static/js/2.7e1421a5.chunk.js.map",
+    "static/js/3.2d558138.chunk.js": "/smallCaseAssignment/static/js/3.2d558138.chunk.js",
+    "static/js/3.2d558138.chunk.js.map": "/smallCaseAssignment/static/js/3.2d558138.chunk.js.map",
+    "index.html": "/smallCaseAssignment/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/smallCaseAssignment/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.798228db.chunk.css.map": "/smallCaseAssignment/static/css/main.798228db.chunk.css.map",
+    "static/js/2.7e1421a5.chunk.js.LICENSE.txt": "/smallCaseAssignment/static/js/2.7e1421a5.chunk.js.LICENSE.txt",
+    "static/media/smallcase.0f6237a6.jpg": "/smallCaseAssignment/static/media/smallcase.0f6237a6.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.aaadb794.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.7e1421a5.chunk.js",
+    "static/css/main.798228db.chunk.css",
+    "static/js/main.d552cdd2.chunk.js"
+  ]
+}
